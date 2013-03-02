@@ -153,6 +153,7 @@ public class RWHtmlLog {
 		return result;
 	}
 	
+	@SuppressWarnings("unused")
 	private static void writeLog(int logType, String s) {
 		try {
 			String time = mTf.format(new Date());
